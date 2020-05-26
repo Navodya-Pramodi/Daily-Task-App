@@ -7,7 +7,7 @@ use App\Task;
 class taskscontroller extends Controller
 {
     public function store(Request $request){
-      
+       $name="navodya";
         $task=new Task;
 
         $this->validate($request,[
